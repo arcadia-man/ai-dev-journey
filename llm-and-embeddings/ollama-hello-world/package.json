@@ -1,0 +1,15 @@
+{
+  "name": "ollama-hello-world",
+  "version": "1.0.0",
+  "description": "Chapter 1 — LLM and Embeddings: calling Ollama from Node.js",
+  "license": "ISC",
+  "type": "commonjs",
+  "main": "src/run.js",
+  "scripts": {
+    "start": "node src/run.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "winston": "^3.11.0"
+  }
+}

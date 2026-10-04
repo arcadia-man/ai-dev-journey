@@ -1,0 +1,9 @@
+node_modules/
+.env
+*.log
+.DS_Store
+vector-db
+vector-search
+rag-basic
+rag-advanced
+mcp
