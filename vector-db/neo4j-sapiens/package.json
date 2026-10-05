@@ -1,0 +1,16 @@
+{
+  "name": "neo4j-sapiens",
+  "version": "1.0.0",
+  "description": "Chapter 3 — Vector DB: storing and querying embeddings in Neo4j",
+  "license": "ISC",
+  "type": "commonjs",
+  "scripts": {
+    "verify": "node src/verify-connection.js",
+    "test-queries": "node src/test-queries.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "neo4j-driver": "^5.12.0",
+    "winston": "^3.11.0"
+  }
+}
