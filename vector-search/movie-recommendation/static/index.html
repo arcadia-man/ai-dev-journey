@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Movie Recommendation</title>
+  <style>
+    body { font-family: Arial; max-width: 900px; margin: 40px auto; padding: 0 16px; }
+    .search { display: flex; margin: 30px 0; gap: 8px; }
+    input { flex: 1; padding: 12px; font-size: 16px; border: 1px solid #ccc; border-radius: 4px; }
+    button { padding: 12px 20px; cursor: pointer; background: #213a30; color: white; border: none; border-radius: 4px; font-size: 16px; }
+    button:hover { opacity: 0.85; }
+    .movie { padding: 15px; margin: 10px 0; border: 1px solid #ddd; border-radius: 8px; }
+    .movie h2 { margin: 0 0 6px; }
+    small { color: #555; }
+  </style>
+</head>
+<body>
+  <h1>Movie Recommendation</h1>
+  <p>Describe what kind of movie you want — the search is semantic, not keyword-based.</p>
+
+  <div class="search">
+    <input id="query" placeholder="e.g. space exploration and human survival" />
+    <button onclick="recommend()">Recommend</button>
+  </div>
+
+  <div id="movies"></div>
+
+  <script>
+    async function recommend() {
+      const query = document.getElementById("query").value.trim();
+      if (!query) return;
+
+      document.getElementById("movies").innerHTML = "<p>Searching...</p>";
+
+      const response = await fetch("/api/movies/recommend", {
+        method:  "POST",
+        headers: { "Content-Type": "application/json" },
+        body:    JSON.stringify({ query, limit: 5 }),
+      });
+
+      const data = await response.json();
+
+      document.getElementById("movies").innerHTML = data
+        .map(
+          (movie) => `
+          <div class="movie">
+            <h2>${movie.movie_name}</h2>
+            <p>${movie.description}</p>
+            <small>Match: ${(movie.similarity * 100).toFixed(1)}%</small>
+          </div>`
+        )
+        .join("");
+    }
+
+    document.getElementById("query").addEventListener("keydown", (e) => {
+      if (e.key === "Enter") recommend();
+    });
+  </script>
+</body>
+</html>

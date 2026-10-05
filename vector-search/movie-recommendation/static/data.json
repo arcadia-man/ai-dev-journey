@@ -1,0 +1,152 @@
+[
+    {
+        "movie_name": "Interstellar",
+        "description": "A group of astronauts travels through a wormhole near Saturn to search for a new habitable planet for humanity. The story explores space travel, time dilation, love, sacrifice, and humanity's survival.",
+        "url": "https://www.imdb.com/title/tt0816692/"
+    },
+    {
+        "movie_name": "Inception",
+        "description": "A skilled thief enters people's dreams to steal secrets from their subconscious. He is given a difficult mission to plant an idea inside someone's mind while dealing with his own memories and guilt.",
+        "url": "https://www.imdb.com/title/tt1375666/"
+    },
+    {
+        "movie_name": "The Matrix",
+        "description": "A computer programmer discovers that reality is actually a simulated world controlled by intelligent machines. He joins a rebellion and learns to manipulate the artificial reality around him.",
+        "url": "https://www.imdb.com/title/tt0133093/"
+    },
+    {
+        "movie_name": "The Dark Knight",
+        "description": "Batman faces the Joker, a criminal mastermind who creates chaos across Gotham City. The story explores justice, morality, sacrifice, and the conflict between order and anarchy.",
+        "url": "https://www.imdb.com/title/tt0468569/"
+    },
+    {
+        "movie_name": "Avengers: Endgame",
+        "description": "After a devastating defeat against Thanos, the remaining Avengers attempt to reverse the destruction and bring back their fallen friends. The heroes face time travel, sacrifice, and one final battle.",
+        "url": "https://www.imdb.com/title/tt4154796/"
+    },
+    {
+        "movie_name": "Iron Man",
+        "description": "A wealthy weapons manufacturer is captured by terrorists and builds an advanced armored suit to escape. After returning home, he transforms his technology into a superhero identity and fights dangerous enemies.",
+        "url": "https://www.imdb.com/title/tt0371746/"
+    },
+    {
+        "movie_name": "Guardians of the Galaxy",
+        "description": "A group of unlikely criminals from across the galaxy must work together to protect a mysterious powerful artifact from a dangerous warlord. The film combines space adventure, comedy, friendship, and action.",
+        "url": "https://www.imdb.com/title/tt2015381/"
+    },
+    {
+        "movie_name": "The Martian",
+        "description": "An astronaut is accidentally left behind on Mars after his crew evacuates during an emergency. Using science, engineering, and determination, he tries to survive while NASA works on a rescue mission.",
+        "url": "https://www.imdb.com/title/tt3659388/"
+    },
+    {
+        "movie_name": "Gravity",
+        "description": "Two astronauts become stranded in space after debris destroys their spacecraft. They must navigate dangerous conditions and limited oxygen while trying to reach safety.",
+        "url": "https://www.imdb.com/title/tt1454468/"
+    },
+    {
+        "movie_name": "Arrival",
+        "description": "A linguist is recruited to communicate with mysterious extraterrestrial visitors who have arrived on Earth. As she learns their language, she discovers that their perception of time challenges human understanding.",
+        "url": "https://www.imdb.com/title/tt2543164/"
+    },
+    {
+        "movie_name": "Blade Runner 2049",
+        "description": "A futuristic police officer discovers a secret that could change the relationship between humans and artificial beings. His investigation leads him to a former blade runner and reveals hidden truths about identity and humanity.",
+        "url": "https://www.imdb.com/title/tt1856101/"
+    },
+    {
+        "movie_name": "Ex Machina",
+        "description": "A young programmer is invited to a secluded research facility to evaluate an advanced artificial intelligence housed in a humanoid robot. The experiment becomes a psychological battle involving consciousness, manipulation, and control.",
+        "url": "https://www.imdb.com/title/tt0470752/"
+    },
+    {
+        "movie_name": "The Prestige",
+        "description": "Two rival magicians become obsessed with creating the ultimate illusion. Their competition escalates into deception, sacrifice, and dangerous experiments as each tries to outperform the other.",
+        "url": "https://www.imdb.com/title/tt0482571/"
+    },
+    {
+        "movie_name": "Shutter Island",
+        "description": "A U.S. marshal investigates the disappearance of a patient from an isolated psychiatric hospital. As the investigation continues, disturbing clues make him question the island, the patients, and his own memories.",
+        "url": "https://www.imdb.com/title/tt1130884/"
+    },
+    {
+        "movie_name": "Se7en",
+        "description": "Two detectives investigate a series of disturbing murders connected to the seven deadly sins. Their investigation takes them into the mind of a calculated serial killer and leads to a dark confrontation.",
+        "url": "https://www.imdb.com/title/tt0114369/"
+    },
+    {
+        "movie_name": "Gone Girl",
+        "description": "A man's wife mysteriously disappears on their wedding anniversary, making him the center of a media investigation. As secrets about their marriage emerge, the truth becomes increasingly difficult to determine.",
+        "url": "https://www.imdb.com/title/tt2267998/"
+    },
+    {
+        "movie_name": "The Shawshank Redemption",
+        "description": "A banker is sentenced to life in prison for a crime he claims he did not commit. Over many years, he develops friendships and quietly maintains hope while finding ways to survive prison life.",
+        "url": "https://www.imdb.com/title/tt0111161/"
+    },
+    {
+        "movie_name": "Forrest Gump",
+        "description": "A kind-hearted man with a simple outlook on life experiences several major historical events in America. His journey includes friendship, love, war, family, and unexpected success.",
+        "url": "https://www.imdb.com/title/tt0109830/"
+    },
+    {
+        "movie_name": "The Pursuit of Happyness",
+        "description": "A struggling salesman becomes homeless while raising his young son. Despite financial hardship and repeated setbacks, he pursues an unpaid internship in hopes of building a better future.",
+        "url": "https://www.imdb.com/title/tt0454921/"
+    },
+    {
+        "movie_name": "Whiplash",
+        "description": "A young jazz drummer enters an elite music conservatory and encounters an extremely demanding instructor. His ambition to become an exceptional musician pushes him toward intense practice, competition, and psychological pressure.",
+        "url": "https://www.imdb.com/title/tt2582802/"
+    },
+    {
+        "movie_name": "La La Land",
+        "description": "An aspiring actress and a passionate jazz musician fall in love while pursuing their creative dreams in Los Angeles. Their relationship is tested by ambition, career opportunities, and difficult choices.",
+        "url": "https://www.imdb.com/title/tt3783958/"
+    },
+    {
+        "movie_name": "The Hangover",
+        "description": "Three friends travel to Las Vegas for a bachelor party and wake up with no memory of the previous night. They must retrace their steps and find their missing friend before the wedding.",
+        "url": "https://www.imdb.com/title/tt1119646/"
+    },
+    {
+        "movie_name": "Superbad",
+        "description": "Two high school friends attempt to attend a party and impress their classmates before graduation. Their plans quickly become chaotic as they deal with alcohol, police, friendship, and embarrassing situations.",
+        "url": "https://www.imdb.com/title/tt0829482/"
+    },
+    {
+        "movie_name": "John Wick",
+        "description": "A retired assassin is pulled back into the criminal underworld after a violent attack destroys the peaceful life he built. He uses his extraordinary combat skills to pursue those responsible.",
+        "url": "https://www.imdb.com/title/tt2911666/"
+    },
+    {
+        "movie_name": "Mad Max: Fury Road",
+        "description": "In a post-apocalyptic wasteland, a rebellious woman escapes from a tyrannical ruler with a group of enslaved women. She joins forces with a mysterious drifter in an intense high-speed battle for freedom.",
+        "url": "https://www.imdb.com/title/tt1392190/"
+    },
+    {
+        "movie_name": "Parasite",
+        "description": "A poor family gradually finds ways to become employed by a wealthy household. Their lives become deeply connected, revealing sharp differences between social classes and leading to unexpected consequences.",
+        "url": "https://www.imdb.com/title/tt6751668/"
+    },
+    {
+        "movie_name": "The Social Network",
+        "description": "A Harvard student creates a revolutionary social networking website that grows into a global technology company. The story follows the relationships, lawsuits, ambition, and conflicts surrounding its creation.",
+        "url": "https://www.imdb.com/title/tt1285016/"
+    },
+    {
+        "movie_name": "Moneyball",
+        "description": "A baseball general manager with limited resources uses statistical analysis to build a competitive team. He challenges traditional scouting methods and faces resistance while trying to change how players are evaluated.",
+        "url": "https://www.imdb.com/title/tt1210166/"
+    },
+    {
+        "movie_name": "The Grand Budapest Hotel",
+        "description": "A hotel concierge and his young lobby boy become involved in a mysterious inheritance dispute. Their adventure includes friendship, murder, stolen artwork, war, and eccentric characters.",
+        "url": "https://www.imdb.com/title/tt2278388/"
+    },
+    {
+        "movie_name": "Her",
+        "description": "A lonely writer develops an unusual romantic relationship with an advanced artificial intelligence operating system. Their relationship explores loneliness, intimacy, technology, consciousness, and human connection.",
+        "url": "https://www.imdb.com/title/tt1798709/"
+    }
+]
