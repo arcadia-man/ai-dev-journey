@@ -1,0 +1,17 @@
+{
+  "topics": [
+    {
+      "id": "sapiens",
+      "title": "Sapiens Book",
+      "description": "Questions about the book Sapiens: A Brief History of Humankind by Yuval Noah Harari",
+      "aliases": ["sapiens", "the book", "harari"],
+      "scope": "history, evolution, human development, cognitive revolution, agricultural revolution, science, religion, money, empires",
+      "examples": [
+        "What is the cognitive revolution?",
+        "How did agriculture change humans?",
+        "What does Harari say about money?"
+      ],
+      "exclude": ["movies", "recommendations", "films"]
+    }
+  ]
+}
