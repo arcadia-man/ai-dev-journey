@@ -1,0 +1,28 @@
+{
+  "name": "sapiens-chat-advanced",
+  "version": "1.0.0",
+  "description": "Chapter 5 — RAG Advanced: structural chunking, parent-child, BM25+vector hybrid, entities, multi-hop",
+  "license": "ISC",
+  "type": "commonjs",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "seed": "node seeders/sapiens.seeder.js"
+  },
+  "dependencies": {
+    "@langchain/community": "^1.1.29",
+    "@langchain/core": "^1.2.13",
+    "compromise": "14.17.0",
+    "cors": "^2.8.6",
+    "dotenv": "^16.0.0",
+    "express": "^5.2.1",
+    "natural": "8.1.1",
+    "neo4j-driver": "^5.12.0",
+    "pdf-parse": "^1.1.1",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
