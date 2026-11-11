@@ -1,0 +1,52 @@
+{
+  "topics": [
+    {
+      "id": "sapiens",
+      "title": "Sapiens: A Brief History of Humankind",
+      "description": "Use this topic when the user asks about an idea, event, argument, or historical subject discussed in Yuval Noah Harari's Sapiens: A Brief History of Humankind. Answers must be grounded in retrieved passages from the book; if those passages do not support an answer, say so rather than filling gaps with general knowledge.",
+      "aliases": ["Sapiens", "the book", "human history", "human evolution"],
+      "scope": [
+        "The Cognitive Revolution and the development of language, shared beliefs, and large-scale cooperation.",
+        "The Agricultural Revolution, settled life, social hierarchy, and its effects on human wellbeing.",
+        "The unification of humankind through empires, money, religion, and other shared systems.",
+        "The Scientific Revolution, imperial expansion, capitalism, and technology as discussed in the book.",
+        "Follow-up questions referring to a Sapiens passage or an idea discussed in an earlier answer."
+      ],
+      "examples": [
+        "What does the book mean by an imagined order?",
+        "How did agriculture change people's lives according to Sapiens?",
+        "Why does Harari say money helps strangers cooperate?",
+        "Can you explain the idea you mentioned in the previous answer?"
+      ],
+      "exclude": [],
+      "source": {
+        "type": "neo4j_document",
+        "id": "sapiens",
+        "description": "Book passages stored as chapter-linked chunks in Neo4j. Use these passages as the factual basis for the answer."
+      }
+    },
+    {
+      "id": "movies",
+      "title": "Movie Recommendations",
+      "description": "Use this topic when the user wants one or more movies to watch, or wants help finding films that match a genre, mood, theme, premise, style, or constraints. Rank candidates using the movie catalog and explain briefly why each suggestion fits the request.",
+      "aliases": ["movies", "films", "what to watch", "movie suggestions"],
+      "scope": [
+        "Recommendations based on genres, themes, moods, plots, settings, or similar films.",
+        "Requests for a film with specified content, tone, era, language, or viewing constraints when catalog information permits.",
+        "Follow-up requests that refine or refer to a previous movie recommendation."
+      ],
+      "examples": [
+        "Recommend a thoughtful science-fiction film about first contact.",
+        "What should I watch if I like clever mysteries?",
+        "Suggest a hopeful movie for tonight.",
+        "Give me something less intense than the last recommendation."
+      ],
+      "exclude": [],
+      "source": {
+        "type": "local_json",
+        "id": "movie_catalog",
+        "description": "Local movie catalog with descriptions, recommendation embeddings, and optional external links. Recommendations should be selected from this catalog."
+      }
+    }
+  ]
+}
