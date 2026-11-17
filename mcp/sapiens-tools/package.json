@@ -1,0 +1,24 @@
+{
+  "name": "sapiens-tools",
+  "version": "1.0.0",
+  "description": "Chapter 6 — a Streamable HTTP MCP server with a browser chat client",
+  "license": "ISC",
+  "type": "commonjs",
+  "main": "src/mcp/server.js",
+  "scripts": {
+    "start": "node src/start.js",
+    "start:ui": "node src/server.js",
+    "start:mcp": "node src/mcp/server.js",
+    "test": "node --test",
+    "inspect": "npx @modelcontextprotocol/inspector --transport http http://localhost:3101/mcp"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.10.0",
+    "ajv": "^8.20.0",
+    "dotenv": "^16.0.0",
+    "express": "^5.2.1",
+    "neo4j-driver": "^5.12.0",
+    "winston": "^3.11.0",
+    "zod": "^3.25.76"
+  }
+}
